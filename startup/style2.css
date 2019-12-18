@@ -19,10 +19,37 @@ hr  {
   height: 3rem;
 }
 
+.buffer-2 {
+  height: 10px;
+}
+
 h1 {
   color: #decdcd;
-  
+  /* position: relative; */
   font-size: 3rem;
+}
+
+.z-animate:hover {
+  transition: all .25s ease-in-out;
+  /* transform: translate(30px, 30px); */
+}
+
+label {
+  color:  #decdcd;
+  font-weight: 800;
+  text-transform: capitalize;
+  
+}
+
+form {
+  width: 100%;
+}
+
+input {
+  border: 1px solid #2f557d;
+  border-radius: 20px;
+  background-color: #3c7fc7;
+  opacity: .5;
 }
 
 .btn {

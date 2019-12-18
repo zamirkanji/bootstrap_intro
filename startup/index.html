@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <link rel="stylesheet" href="style2.css" type="text/css">
   <title>Startup</title>
 </head>
@@ -16,10 +17,19 @@
   <div class="container d-flex align-items-center h-100">
     <div class="row">
       <header class="text-center col-12">
-        <h1 class="text-uppercase"><strong>Welcome to our Fantasy Blog!</strong></h1>
+        <h1 class="text-uppercase z-animate"><strong>Welcome to our Fantasy Blog!</strong></h1>
       </header>
       <div class="buffer col-12"></div>
       <section class="text-center col-12">
+
+        <form action="post" class="align-items-center">
+          <label for="name">First Name: </label>
+          <input type="text" name="firstname" class="user-input col-3">
+          <div class="buffer-2 col-12"></div>
+          <label for="name">Last Name: </label>
+          <input type="text" name="lastname" class="user-input col-3">
+        </form>
+
         <hr>
         <a href="https://mailchi.mp/95f0d1521da9/samsfantasyblog">
           <button class="btn btn-primary btn-xl">Find out more</button>
